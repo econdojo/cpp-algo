@@ -1,2 +1,2 @@
-# cpp-algo
-Competitive Programming
+# Just For Fun
+TBA
