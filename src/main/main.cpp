@@ -1,8 +1,11 @@
-#include "../func/func.h"
+#include <iostream>
+#include "../Num/Num.h"
+
+using namespace std;
 
 int main() {
-    func(10);
-    func(100);
+    Num n(5);
+    cout << n.getNum() << endl;
     
     return 0;
 }
