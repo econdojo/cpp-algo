@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../Num/Num.h"
+#include "../basic/Num.h"
 
 using namespace std;
 
