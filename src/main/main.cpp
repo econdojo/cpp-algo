@@ -2,6 +2,6 @@
 
 int main() {
     basic();
-    
+    graph();
     return 0;
 }

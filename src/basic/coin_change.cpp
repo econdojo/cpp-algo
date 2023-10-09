@@ -1,4 +1,4 @@
-// Minimum coin change using dynamic programming
+// Minimum coin change using dynamic programming (recursion + memoization)
 #include <algorithm>
 #include "basic.h"
 using namespace std;

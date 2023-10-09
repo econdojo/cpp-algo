@@ -11,4 +11,6 @@ class Num {
 
 int coin_change(int x);
 
+int subsequence(int *array, int n);
+
 #endif

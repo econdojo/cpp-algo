@@ -4,4 +4,7 @@
 /* Basic techniques */
 int basic(void);
 
+/* Graph algorithms */
+int graph(void);
+
 #endif
