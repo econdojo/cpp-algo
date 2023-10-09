@@ -1,11 +1,7 @@
-#include <iostream>
-#include "../basic/Num.h"
-
-using namespace std;
+#include "example.h"
 
 int main() {
-    Num n(5);
-    cout << n.getNum() << endl;
+    basic();
     
     return 0;
 }

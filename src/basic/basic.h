@@ -1,5 +1,5 @@
-#ifndef NUM_H
-#define NUM_H
+#ifndef BASIC_H
+#define BASIC_H
 
 class Num {
     public:
@@ -8,5 +8,7 @@ class Num {
     private:
         int num;
 };
+
+int coin_change(int x);
 
 #endif
