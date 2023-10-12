@@ -61,7 +61,7 @@ endif
 define generateRules
 $(1)/%.o: %.cpp
 	@echo Building $$@
-	$(HIDE)$(CC) -c -g $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) -MMD
+	$(HIDE)$(CC) -std=c++11 -c -g $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) -MMD
 endef
 
 .PHONY: all clean directories 
