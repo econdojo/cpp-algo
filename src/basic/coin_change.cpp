@@ -1,7 +1,5 @@
 // Minimum coin change using dynamic programming (recursion + memoization)
-#include <algorithm>
 #include "basic.h"
-using namespace std;
 
 static int coins[] = {1, 3, 4};
 static int values[1000] = {[0 ... 999] = -1}; // memoization

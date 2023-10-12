@@ -1,7 +1,9 @@
 // Breadth-first search
 #include "graph.h"
 
-void bfs(int s, vector<int> *adj, bool *visited) {
+static bool visited[100] = {false};
+
+void bfs(int s, vector<int> *adj) {
     queue<int> q;
     q.push(s);
     visited[s] = true;

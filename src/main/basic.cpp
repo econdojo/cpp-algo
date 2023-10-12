@@ -1,7 +1,4 @@
-#include <iostream>
 #include "../basic/basic.h"
-
-using namespace std;
 
 int basic(void) {
     //Num n(5);

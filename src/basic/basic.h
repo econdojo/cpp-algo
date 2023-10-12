@@ -1,3 +1,7 @@
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
 #ifndef BASIC_H
 #define BASIC_H
 
