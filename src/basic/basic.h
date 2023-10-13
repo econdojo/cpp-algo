@@ -17,4 +17,6 @@ int coin_change(int x);
 
 int subsequence(int *array, int n);
 
+void int_bit(int x);
+
 #endif
