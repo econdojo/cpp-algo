@@ -1,5 +1,5 @@
 // Bit representation of int
-#include "basic.h"
+#include "basic.hpp"
 
 void int_bit(int x) {
     for (int i = 31; i >= 0; i--) {

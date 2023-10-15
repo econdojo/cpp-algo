@@ -1,5 +1,5 @@
 // Longest increasing subsequence using dynamic programming (bottom-up)
-#include "basic.h"
+#include "basic.hpp"
 
 int subsequence(int *array, int n) {
     int length[n];

@@ -1,4 +1,4 @@
-#include "../graph/graph.h"
+#include "../graph/graph.hpp"
 
 int graph(void) {
     vector<int> adj[5];

@@ -1,5 +1,5 @@
 // Breadth-first search
-#include "graph.h"
+#include "graph.hpp"
 
 static bool visited[100] = {false};
 

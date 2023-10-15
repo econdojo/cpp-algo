@@ -1,4 +1,4 @@
-#include "basic.h"
+#include "basic.hpp"
 
 Num::Num(int n) {
     num = n;
