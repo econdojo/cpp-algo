@@ -10,7 +10,7 @@ TARGET = test
 VERBOSE = FALSE
 
 # Create the list of directories
-DIRS = main basic graph
+DIRS = main hash_table
 SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
 TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
 
