@@ -10,7 +10,8 @@ TARGET = test
 VERBOSE = FALSE
 
 # Create the list of directories
-DIRS = main hash_table linked_list
+DIRS = main hash_table linked_list \
+dynamic_programming
 SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
 TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
 
