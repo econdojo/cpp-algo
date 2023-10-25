@@ -4,7 +4,7 @@
 Given a set of coin values coins = {1, 3, 4} and a target sum of money n, our task is to find the minimum number of coins required to form the sum n. Assume that we have an unlimited supply of coins of each type.
 
 int main(int argc, char **argv) {
-    cout << coinChange1(850) << endl;
+    cout << coinChange(850) << endl;
     return 0;
 }
 */
