@@ -1,4 +1,4 @@
-#include "dynamic_programming.hpp"
+#include "array.hpp"
 
 /*
 Given a set of coin values coins = {1, 3, 4} and a target sum of money n, our task is to find the minimum number of coins required to form the sum n. Assume that we have an unlimited supply of coins of each type.
@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 }
 */
 
-// Method 1: recursion + memoization, time O(n), space O(n)
+// Method 1: dynamic programming (recursion + memoization), time O(n), space O(n)
 
 static int coins[] = {1, 3, 4};
 static int values[1000] = {[0 ... 999] = -1}; // memoization
