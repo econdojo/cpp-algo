@@ -16,4 +16,6 @@ struct TreeNode {
 
  int maxPathSum1(TreeNode* root);
 
+ vector<int> inorderTraversal(TreeNode* root);
+
 #endif
