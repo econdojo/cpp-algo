@@ -6,13 +6,11 @@
 #include "../graph/graph.hpp"
 
 int main(int argc, char **argv) {
-    vector<int> adj[5];
-    adj[1].push_back(2);
-    adj[2].push_back(3);
-    adj[2].push_back(4);
-    adj[3].push_back(4);
-    adj[4].push_back(1);
-    dfs(1, adj);
-    bfs(1, adj);
+    TreeNode* root = new TreeNode(-10);
+    root->left = new TreeNode(9);
+    root->right = new TreeNode(20);
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(7);
+    cout << maxPathSum1(root) << endl;
     return 0;
 }
