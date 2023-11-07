@@ -7,7 +7,7 @@ Reference: youtube.com/watch?v=KukNnoN-SoY
 
 int main(int argc, char **argv) {
     vector<int> nums = {1, 2, 3};
-    vector<vector<int>> res = permute1(nums);
+    vector<vector<int>> res = permute(nums);
     
     for (int i = 0; i < res.size(); i++) {
         cout << "[";
