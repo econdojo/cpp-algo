@@ -4,15 +4,16 @@
 // #include "../bit/bit.hpp"
 // #include "../tree/tree.hpp"
 // #include "../graph/graph.hpp"
-#include "../queue/queue.hpp"
+// #include "../queue/queue.hpp"
+#include "../stack/stack.hpp"
 
 int main(int argc, char **argv) {
-    Stack* myStack = new Stack();
-    myStack->push1(1);
-    myStack->push2(2);
-    cout << myStack->top() << endl;
-    cout << myStack->pop() << endl;
-    cout << myStack->empty() << endl;
-    delete myStack;
+    Queue* myQueue = new Queue();
+    myQueue->push(1);
+    myQueue->push(2);
+    cout << myQueue->peek() << endl;
+    cout << myQueue->pop() << endl;
+    cout << myQueue->empty() << endl;
+    delete myQueue;
     return 0;
 }
