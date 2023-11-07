@@ -11,8 +11,8 @@ int main(int argc, char **argv) {
 
 // Method 1: dynamic programming (recursion + memoization), time O(n), space O(n)
 
-static int coins[] = {1, 3, 4};
-static int values[1000] = {[0 ... 999] = -1}; // memoization
+static vector<int> coins = {1, 3, 4};
+static vector<int> values(1000,-1); // memoization
 
 int coinChange1(int x) {
     if (x < 0) return 1000000;

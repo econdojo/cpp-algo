@@ -2,16 +2,19 @@
 #define ARRAY_H
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Array {
     private:
-        int *array;
+        vector<int> array;
     public:
-        Array(int *array) : array(array) {}
+        Array(vector<int> &array) : array(array) {}
         int subsequence1(int n);
 };
 
 int coinChange1(int x);
+
+vector<vector<int>> permute1(vector<int>& nums);
 
 #endif
