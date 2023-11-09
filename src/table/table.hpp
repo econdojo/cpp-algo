@@ -1,5 +1,5 @@
-#ifndef HASH_TABLE_H
-#define HASH_TABLE_H
+#ifndef TABLE_H // hash table
+#define TABLE_H
 
 #include <iostream>
 #include <vector>

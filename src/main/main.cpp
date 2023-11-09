@@ -1,19 +1,18 @@
-// #include "../hash_table/hash_table.hpp"
-// #include "../linked_list/linked_list.hpp"
+// #include "../table/table.hpp"
+// #include "../list/list.hpp"
 // #include "../array/array.hpp"
 // #include "../bit/bit.hpp"
 // #include "../tree/tree.hpp"
 // #include "../graph/graph.hpp"
 // #include "../queue/queue.hpp"
 #include "../stack/stack.hpp"
+#include <vector>
 
 int main(int argc, char **argv) {
-    Queue* myQueue = new Queue();
-    myQueue->push(1);
-    myQueue->push(2);
-    cout << myQueue->peek() << endl;
-    cout << myQueue->pop() << endl;
-    cout << myQueue->empty() << endl;
-    delete myQueue;
+    vector<string> s = {"LA"};
+    cout << s[0] << endl;
+
+    vector<vector<int>> a(3, vector<int>(3, 5));
+    cout << a[0][0] << endl;
     return 0;
 }

@@ -10,7 +10,7 @@ TARGET = test
 VERBOSE = FALSE
 
 # Create the list of directories
-DIRS = main array hash_table linked_list bit queue \
+DIRS = main array table list bit queue heap \
 tree graph stack
 SOURCEDIRS = $(foreach dir, $(DIRS), $(addprefix $(SOURCEDIR)/, $(dir)))
 TARGETDIRS = $(foreach dir, $(DIRS), $(addprefix $(BUILDDIR)/, $(dir)))
