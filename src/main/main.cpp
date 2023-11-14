@@ -5,14 +5,11 @@
 // #include "../tree/tree.hpp"
 // #include "../graph/graph.hpp"
 // #include "../queue/queue.hpp"
-#include "../stack/stack.hpp"
-#include <vector>
+// #include "../stack/stack.hpp"
+#include "../heap/heap.hpp"
 
 int main(int argc, char **argv) {
-    vector<string> s = {"LA"};
-    cout << s[0] << endl;
-
-    vector<vector<int>> a(3, vector<int>(3, 5));
-    cout << a[0][0] << endl;
+    vector<int> nums = {3,2,1,5,6,4};
+    cout << findKthLargest1(nums, 2) << endl;
     return 0;
 }
