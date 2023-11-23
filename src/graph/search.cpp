@@ -4,14 +4,15 @@
 In the adjacency list representation, each node x in the graph is assigned an adjacency list that consists of nodes to which there is an edge from x. Both BFS and DFS algorithms are given a starting node in the graph, and they visit all nodes that can be reached from the starting node.
 
 int main(int argc, char **argv) {
-    vector<int> adj[5];
+    vector<int> adj[4];
+    adj[0].push_back(1);
     adj[1].push_back(2);
+    adj[1].push_back(3);
     adj[2].push_back(3);
-    adj[2].push_back(4);
-    adj[3].push_back(4);
-    adj[4].push_back(1);
-    dfs(1, adj);
-    bfs(1, adj);
+    adj[3].push_back(0);
+    dfs(0, adj);
+    cout << endl;
+    bfs(0, adj);
     return 0;
 }
 */
