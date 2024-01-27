@@ -60,7 +60,7 @@ endif
 
 # Define the function that will generate each rule
 define generateRules
-$(1)/%.o: %.cpp
+$(1)/%.o: %.cpp $(notdir $(1)).hpp
 	@echo Building $$@
 	$(HIDE)$(CC) -std=c++11 -c -g $$(INCLUDES) -o $$(subst /,$$(PSEP),$$@) $$(subst /,$$(PSEP),$$<) -MMD
 endef
