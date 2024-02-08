@@ -1,5 +1,5 @@
-# Set project directory one level above of Makefile directory. $(CURDIR) is a GNU make variable containing the path to the current working directory
-PROJDIR := $(realpath $(CURDIR)/..)
+# Set project directory to Makefile directory. $(CURDIR) is a GNU make variable containing the path to the current working directory
+PROJDIR := $(realpath $(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
 SOURCEDIR := $(PROJDIR)/src
 BUILDDIR := $(PROJDIR)/bin
 

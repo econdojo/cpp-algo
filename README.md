@@ -1,9 +1,9 @@
 # Just For Fun
 Algorithms in C++
 
-Change directory to "bin":
+Set directory:
 
-    $ cd bin
+    $ cd /path/to/cpp-algo
 
 Compile:
 
@@ -12,3 +12,7 @@ Compile:
 Run:
 
     $ ./test
+
+Clean:
+
+    $ make clean
