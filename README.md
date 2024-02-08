@@ -13,6 +13,10 @@ Run:
 
     $ ./test
 
+Return code:
+
+    $ echo $?
+
 Clean:
 
     $ make clean
