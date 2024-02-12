@@ -26,7 +26,7 @@ struct array_t {
     }
 };
 
-void arrayStruct();
+void arrayStruct(array_t *arr);
 
 class Array {
     private:
